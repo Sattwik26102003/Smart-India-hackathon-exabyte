@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer and Lawyer Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="toggle">
+            <button id="consumerBtn">Consumer Portal</button>
+            <button id="lawyerBtn">Lawyer Portal</button>
+        </div>
+        <div class="form" id="consumerForm">
+            <h2>Consumer Portal</h2>
+            <div class="form-group" >
+                <label for="consumerName">Name</label>
+                <input type="text" id="consumerName" name="consumerName" required>
+            </div>
+            <div class="form-group">
+                <label for="consumerMobile">Mobile Number</label>
+                <input type="tel" id="consumerMobile" name="consumerMobile" pattern="[0-9]{10}" required>
+            </div>
+            <div class="form-group">
+                <label for="consumerEmail">Email</label>
+                <input type="email" id="consumerEmail" name="consumerEmail" required>
+            </div>
+            <div class="form-group">
+                <label for="consumerPassword">Password</label>
+                <input type="password" id="consumerPassword" name="consumerPassword" required>
+            </div>
+        </div>
+        <div class="form" id="lawyerForm">
+            <h2>Lawyer Portal</h2>
+            <div class="form-group">
+                <label for="lawyerName">Name</label>
+                <input type="text" id="lawyerName" name="lawyerName" required>
+            </div>
+            <div class="form-group">
+                <label for="lawyerMobile">Mobile Number</label>
+                <input type="tel" id="lawyerMobile" name="lawyerMobile" pattern="[0-9]{10}" required>
+            </div>
+            <div class="form-group">
+                <label for="lawyerEmail">Email</label>
+                <input type="email" id="lawyerEmail" name="lawyerEmail" required>
+            </div>
+            <div class="form-group">
+                <label for="lawyerPassword">Password</label>
+                <input type="password" id="lawyerPassword" name="lawyerPassword" required>
+            </div>
+        </div><br>
+            <input type="submit" value="submit">
+        </form>
+    
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

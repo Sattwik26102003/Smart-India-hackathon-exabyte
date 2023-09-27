@@ -1,16 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('3.jpg');
+    background-image: url("./3-removebg-preview.png");
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(245.59deg,#5473ad 0% , #131f35 10.53% , #021842 90%);
 }
 
 .container {
     text-align: center;
-    background-image: linear-gradient(to right bottom,#edede8,#f4eeeefe,#e7dfdf);
+    /* background-image: linear-gradient(to right bottom,#edede8,#f4eeeefe,#e7dfdf); */
     padding: 10px;
     border-radius: 10px;
     max-width: 400px;
@@ -52,3 +53,18 @@ input {
     border-radius: 4px;
     font-size: 14px;
 }
+#tt{
+    position: absolute ;
+    left: 5%;
+}
+img{
+    height :300%;
+    width: 200%;
+
+
+
+}
+input:hover{
+    background-color: wheat;
+}
+    
